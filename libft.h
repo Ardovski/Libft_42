@@ -6,15 +6,15 @@
 /*   By: uardaozdes <uardaozdes@gmail.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/27 10:08:10 by uardaozdes        #+#    #+#             */
-/*   Updated: 2025/06/03 11:45:43 by uardaozdes       ###   ########.fr       */
+/*   Updated: 2025/06/12 13:38:13 by uardaozdes       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
-# include <unistd.h>
 # include <stdlib.h>
+# include <unistd.h>
 # include <stdio.h>
 
 int		ft_isalpha(int a);

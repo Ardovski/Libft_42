@@ -6,7 +6,7 @@
 /*   By: uardaozdes <uardaozdes@gmail.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/29 14:49:59 by uardaozdes        #+#    #+#             */
-/*   Updated: 2025/05/29 14:53:24 by uardaozdes       ###   ########.fr       */
+/*   Updated: 2025/06/13 16:26:31 by uardaozdes       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ void	ft_putendl_fd(char *s, int fd)
 	i = 0;
 	while (s[i])
 	{
-		write(fd, &s[i], 1);
+		ft_putchar_fd(s[i], fd);
 		i++;
 	}
 	write(fd, "\n", 1);

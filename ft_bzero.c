@@ -6,7 +6,7 @@
 /*   By: uardaozdes <uardaozdes@gmail.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/27 11:13:06 by uardaozdes        #+#    #+#             */
-/*   Updated: 2025/05/27 11:13:30 by uardaozdes       ###   ########.fr       */
+/*   Updated: 2025/06/13 10:53:02 by uardaozdes       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,15 +14,5 @@
 
 void	*ft_bzero(void *b, size_t len)
 {
-	size_t	i;
-	char	*dest;
-
-	dest = b;
-	i = 0;
-	while (i < len)
-	{
-		dest[i] = 0;
-		i++;
-	}
-	return (b);
+	return (ft_memset(b, 0, len));
 }

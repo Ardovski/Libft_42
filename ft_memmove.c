@@ -6,7 +6,7 @@
 /*   By: uardaozdes <uardaozdes@gmail.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/27 11:54:49 by uardaozdes        #+#    #+#             */
-/*   Updated: 2025/05/27 15:34:58 by uardaozdes       ###   ########.fr       */
+/*   Updated: 2025/06/12 17:43:56 by uardaozdes       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,12 +30,7 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 	}
 	else
 	{
-		i = 0;
-		while (i < len)
-		{
-			buffer_dest[i] = buffer_src[i];
-			i++;
-		}
+		dst = ft_memcpy(dst, src, len);
 	}
 	return (dst);
 }

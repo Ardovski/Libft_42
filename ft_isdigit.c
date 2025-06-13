@@ -6,11 +6,9 @@
 /*   By: uardaozdes <uardaozdes@gmail.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/27 10:09:14 by uardaozdes        #+#    #+#             */
-/*   Updated: 2025/05/27 10:11:07 by uardaozdes       ###   ########.fr       */
+/*   Updated: 2025/06/12 13:32:09 by uardaozdes       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 int	ft_isdigit(int a)
 {
