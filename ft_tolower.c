@@ -6,11 +6,9 @@
 /*   By: uardaozdes <uardaozdes@gmail.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/28 09:49:38 by uardaozdes        #+#    #+#             */
-/*   Updated: 2025/05/28 09:50:04 by uardaozdes       ###   ########.fr       */
+/*   Updated: 2025/06/17 11:28:19 by uardaozdes       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 int	ft_tolower(int a)
 {

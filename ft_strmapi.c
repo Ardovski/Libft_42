@@ -6,11 +6,12 @@
 /*   By: uardaozdes <uardaozdes@gmail.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/29 10:37:59 by uardaozdes        #+#    #+#             */
-/*   Updated: 2025/06/13 14:59:02 by uardaozdes       ###   ########.fr       */
+/*   Updated: 2025/06/17 15:42:12 by uardaozdes       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stdlib.h>
 
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {

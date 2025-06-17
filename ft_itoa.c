@@ -6,11 +6,11 @@
 /*   By: uardaozdes <uardaozdes@gmail.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/29 10:01:28 by uardaozdes        #+#    #+#             */
-/*   Updated: 2025/05/29 10:24:07 by uardaozdes       ###   ########.fr       */
+/*   Updated: 2025/06/17 15:37:48 by uardaozdes       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <stdlib.h>
 
 static int	ft_intlen(int n)
 {

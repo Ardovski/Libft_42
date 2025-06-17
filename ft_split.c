@@ -6,11 +6,12 @@
 /*   By: uardaozdes <uardaozdes@gmail.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/03 11:45:23 by uardaozdes        #+#    #+#             */
-/*   Updated: 2025/06/13 19:24:00 by uardaozdes       ###   ########.fr       */
+/*   Updated: 2025/06/17 15:40:08 by uardaozdes       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stdlib.h>
 
 static int	ft_count(const char *s, char c)
 {

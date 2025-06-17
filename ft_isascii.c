@@ -6,11 +6,9 @@
 /*   By: uardaozdes <uardaozdes@gmail.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/27 10:26:31 by uardaozdes        #+#    #+#             */
-/*   Updated: 2025/05/27 10:32:57 by uardaozdes       ###   ########.fr       */
+/*   Updated: 2025/06/17 11:32:32 by uardaozdes       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 int	ft_isascii(int a)
 {

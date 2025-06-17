@@ -6,11 +6,9 @@
 /*   By: uardaozdes <uardaozdes@gmail.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/27 10:33:29 by uardaozdes        #+#    #+#             */
-/*   Updated: 2025/05/27 10:35:04 by uardaozdes       ###   ########.fr       */
+/*   Updated: 2025/06/17 11:32:18 by uardaozdes       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 int	ft_isprint(int a)
 {
