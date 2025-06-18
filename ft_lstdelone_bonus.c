@@ -1,16 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_lstdelone.c                                     :+:      :+:    :+:   */
+/*   ft_lstdelone_bonus.c                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: uardaozdes <uardaozdes@gmail.com>          +#+  +:+       +#+        */
+/*   By: uozdes <uardaozdes@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/30 11:08:27 by uardaozdes        #+#    #+#             */
-/*   Updated: 2025/05/30 11:57:38 by uardaozdes       ###   ########.fr       */
+/*   Updated: 2025/06/18 13:46:51 by uozdes           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stdlib.h>
 
 void	ft_lstdelone(t_list *lst, void (*del)(void	*))
 {
