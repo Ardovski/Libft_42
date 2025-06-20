@@ -20,28 +20,8 @@ void	del(void	*a)
 }
 int main()
 {
-	int b[] = {1,13,267,288,655};
-	t_list *sa = NULL;
-	t_list *new = ft_lstnew("Ardovski");
-	t_list *new2 = ft_lstnew("Ervo");
-	t_list *temp;
-
-	ft_lstadd_back(&sa,new2);
-	ft_lstadd_front(&sa,new);
-	temp = sa;
-	int i = 0;
-	while (temp != NULL)
-	{
-		printf("%s\n", (char *)temp->content);
-		temp = temp->next;
-	}
-	t_list *s = ft_lstlast(sa);
-	ft_lstdelone(s,del);
-	temp = sa;
-	i = 0;
-	while (temp)
-	{
-		printf("%s\n", (char *)temp->content);
-		temp = temp->next;
-	}
+	int a[] = {1, 8, 12, 222};
+	int b[] = {};
+	int *c = ft_memset(a,2,5);
+	printf("%d\n", b[3]);
 }
